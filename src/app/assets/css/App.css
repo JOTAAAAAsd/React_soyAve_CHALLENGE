@@ -1,0 +1,263 @@
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+img {
+    pointer-events: none;
+}
+
+
+/* ------------------- */
+.header_navbar_custom {
+    padding: 1%;
+    background-color: rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-brand a img {
+    padding: 7%;
+    border: 2px solid rgb(130, 130, 130);
+    background-color: rgb(244, 244, 244);
+}
+
+.navbar-brand a img:hover {
+    filter: grayscale(.5);
+}
+
+.header_navbar_custom_li_items {
+    color: #7993e7;
+    text-decoration: none;
+    background-color: #162658;
+    border: 1px solid #7993e7;
+    margin-right: 3%;
+    width: 70px !important;
+    text-align: center;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.header_navbar_custom_li_items:hover,
+.header_navbar_custom_li_item_active {
+    background-color: #0a132e;
+    border: 1px solid white;
+}
+
+.header_navbar_custom_li_item_active{
+    pointer-events: none;
+}
+
+.alert_custom_content {
+    background-color: rgb(189, 189, 189) !important;
+    border-radius: 0 !important;
+    border: 1px solid black !important;
+    color: black !important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.alert_custom_content .title {
+    background-color: #404d58;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(197, 197, 197);
+    letter-spacing: 3px;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+.alert_custom_content .content {
+    padding: 1%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    font-size: 1.2em;
+}
+
+.alert_custom_content .content .items {
+    padding: 1%;
+}
+
+.alert_custom_content .content .items ul li {
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 1%;
+    list-style: none;
+    padding: 1%;
+    color: white;
+}
+
+.btn_challenge_p {
+    background-color: #5720b7 !important;
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+    letter-spacing: 1px;
+}
+
+.btn_challenge_p:hover {
+    background-color: #2f0e68 !important;
+}
+
+.btn_challenge_p_active {
+    background-color: #6bd5c4 !important;
+    pointer-events: none;
+    color: black !important;
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+}
+
+.card_header_problem {
+    border: 1px solid black !important;
+    border-radius: 0 !important;
+    margin-bottom: 3% !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+
+
+.modal-body {
+    overflow-y: hidden !important;
+}
+
+.modal-dialog {
+    max-width: 70% !important;
+}
+
+.modal-content {
+    background-color: rgb(193, 193, 193) !important;
+    border-radius: 0 !important;
+    height: 500px !important;
+    border: 2px solid black !important;
+    -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.modal_app_content_children {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 65%;
+    padding: 3%;
+}
+
+
+/* ------------------------------------ NUEEEEVOOOO ESTILOOOOO */
+.app_layout_card_content {
+    background-color: #616161 !important;
+    padding: 2%;
+    border: 2px double black !important;
+}
+
+.app_layout_card_title_content {
+    background-color: #110522 !important;
+    color: #ef4b87 !important;
+    border: 1px solid #fdecf5 !important;
+    padding: 3% !important;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 3% !important;
+}
+
+.app_error_input_alert_content{
+    background-color: #c5789b;
+    border: 2px solid #65384d;
+    padding: 2%;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+}
+
+.app_error_input_alert_content svg{
+    transform: scale(1.5);
+    color: #971c00;
+}
+
+.btn_send_data_ok {
+    background-color: #dd2800 !important;
+    border: 1px solid #971c00 !important;
+}
+
+.btn_send_data_ok:hover {
+    background-color: #941b00 !important;
+    border: 1px solid #5f1100 !important;
+}
+
+.card_form_inputs_content {
+    background-color: #ee6b2f !important;
+    padding: 5%;
+    border-radius: 10px !important;
+    border: 2px solid #471a0f;
+}
+
+.card_form_inputs_input_content {
+    background-color: rgb(255, 241, 173) !important;
+    border: 1px solid black !important;
+    border-radius: 0px !important;
+}
+
+.card_form_inputs_input_content:focus {
+    color: black;
+    background-color: rgb(255, 241, 173) !important;
+    border: 1px solid black !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0) !important;
+}
+
+.card_result_data_container {
+    background-color: rgb(205, 205, 205) !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+}
+
+.card_result_data_content {
+    background-color: #bd0025;
+    border: 3px solid #720017;
+    text-align: center;
+    padding: 5%;
+    font-size: 3em;
+    color: rgb(205, 205, 205);
+    height: 100% !important;
+    -webkit-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card_result_data_content span {
+    background-color: #1c1f27;
+    position: relative;
+    top: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.main_problem_btn_item_open_modal {
+    background-color: #ebdf89 !important;
+    border: 1px solid #9a9256 !important;
+    border-radius: 5px !important;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    color: rgb(0, 0, 0) !important;
+}
+
+.main_problem_btn_item_open_modal:hover {
+    background-color: #beb56a !important;
+    border: 1px solid #9a9256 !important;
+}
+
+.alert_info_item_description{
+    background-color: #d78559 !important;
+    color: black !important;
+    border-radius: 0 !important;
+    border: 1px solid #ab6843 !important;
+}
